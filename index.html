@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://kit.fontawesome.com/10241336c4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
 
-    <title>Shmaiter's Portfolio</title>
+    <title>Shmaiter Morales</title>
 </head>
 
 <body>
@@ -30,22 +31,9 @@
                         </a>
                     </h1>
                 </li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="/projects.html">Projects</a></li>
                 <li><a href="/about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="https://www.linkedin.com/in/shmaiter-morales/" target="_blank">
-                        <span class="fab fa-linkedin" aria-hidden="true"></span>
-                        <span class="sr-only">LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/shmaiter" target="_blank">
-                        <span class="fab fa-github-square" aria-hidden="true"></span>
-                        <span class="sr-only">Github</span>
-                    </a>
 
-                </li>
                 <li>
                     <a href="https://drive.google.com/file/d/1ys63J2ZR58NZCxKseihRqN8LyB0Sor0N/view?usp=sharing"
                         class="button" target="_blank">Resume</a>
@@ -57,17 +45,11 @@
 
 
     <section id="intro">
-        <p class="name">Hi, my name is <span>Shmaiter Morales.</span></p>
+        <p class="name">Hi, my name is <span id="fullname">Shmaiter Morales.</span></p>
 
-        <h2>I'm software developer.</h2>
+        <h2>I am <span class="auto-type"></span></h2>
 
-        <p>Attracted by the creation of websites with better UI and UX, which generate differentiating and competitive
-            products for customers.
-        </p>
 
-        <p>Currently, I'm creating projects with different concepts and technologies, you can check my GitHub
-            <a href="https://github.com/shmaiter">here.</a>
-        </p>
     </section>
 
     <div class="gradient"></div>
@@ -75,7 +57,7 @@
     <!-- instructions in JavaScript block -->
     <div class="section-blue">
         <section id="projects">
-            <h2>Projects I'm proud of</h2>
+            <h2>Live Projects</h2>
             <article>
                 <div class="text">
                     <h4>10-2022</h4>
@@ -154,7 +136,7 @@
 
     <div class="gradient"></div>
 
-    <div class="section-plum">
+    <!-- <div class="section-plum">
         <section id="contact">
             <h2>Contact me</h2>
 
@@ -165,9 +147,15 @@
             <p><a href="mailto:shmaither@gmail.com" target="_blank" aria-hidden="true" class="button">Email me</a></p>
         </section>
     </div>
-    <div class="gradient"></div>
+    <div class="gradient"></div> -->
     <footer>
-        <h2>Shmaiter Morales &middot; Full-Stack Developer</h2>
+        <h2>Contact me</h2>
+
+        <p>I'm always interested in hearing about new projects or collaborations with any one from the community.
+            Also
+            if you're interested in a custom made website.</p>
+
+
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/shmaiter-morales/" target="_blank" aria-hidden="true">
@@ -181,12 +169,18 @@
                     <span class="sr-only">Github</span>
                 </a>
             </li>
+            <li>
+                <a href="mailto:shmaither@gmail.com" target="_blank" aria-hidden="true">
+                    <span class="fa fa-envelope" aria-hidden="true"></span>
+                    <span class="sr-only">Envelope</span>
+                </a>
+            </li>
 
         </ul>
-        <p><small>&copy; 2022 Shmaiter Morales. All rights reserved.</small></p>
+        <p><small>&copy; Shmaiter Morales 2022.</small></p>
     </footer>
 
-
+    <script src="index.js"></script>
 </body>
 
 </html>
