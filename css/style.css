@@ -79,10 +79,9 @@ a:hover {
 /* intro styles */
 
 #intro {
-    padding: 4rem 1rem 10rem 1rem;
-    padding-bottom: 10rem;
+    padding: 2rem 1rem 0;
     max-width: 1200px;
-    height: calc(100vh - 104px);
+    height: calc(100vh - 30vh);
     margin: 0 auto;
 }
 
@@ -105,7 +104,7 @@ a:hover {
 }
 
 #intro h2 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 /* contact section */
@@ -124,8 +123,6 @@ a:hover {
 /* navigation */
 
 nav {
-    /* position: fixed;
-    margin: 0 auto; */
     font-family: var(--mono);
     font-size: 80%;
     padding: 2rem 1rem;
@@ -133,6 +130,10 @@ nav {
 
 nav h1 a {
     font-family: var(--sans);
+}
+nav h1 a span:nth-child(2) {
+    font-family: var(--sans);
+    font-size: 180%;
 }
 
 nav ul {
@@ -208,7 +209,7 @@ footer ul {
 
 #projects,
 #about {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 0;
 }
 
 #projects h2,
@@ -260,6 +261,17 @@ footer ul {
 }
 
 @media (min-width: 800px) {
+    #intro {
+        padding: 5rem 1rem 5rem;
+        padding-bottom: 10rem;
+        max-width: 1200px;
+        height: calc(100vh - 124px);
+        margin: 0 auto;
+    }
+    #intro h2 {
+        font-size: 4rem;
+        margin-top: 35px;
+    }
     article {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
